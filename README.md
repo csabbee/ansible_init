@@ -41,4 +41,4 @@ Auth log is located here: /var/log/auth.log
 
 ### Useful sites
 
-[OpenSSH](https://help.ubuntu.com/community/SSH/PENSSH/Keys)
+[OpenSSH](https://help.ubuntu.com/community/SSH/OpenSSH/Keys)

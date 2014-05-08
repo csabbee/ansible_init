@@ -35,6 +35,15 @@ If the computer is behind a router, you'll also want to do some port forwarding.
 	sudo mkdir /etc/ansible
 	sudo cp ~/ansible/examples/hosts /etc/ansible/
 
+
+#### Ansible config
+
+create an ansible.cfg in /etc/ansible directory
+
+enable logging:
+	[defaults] 
+	log_path=/path/to/logfile
+
 ### ping host(s)
 
 	ansible -m ping -i /etc/ansible/hosts all -k

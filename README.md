@@ -20,6 +20,10 @@ They take about 10 minutes in total and you go from a 1/10000 chance of being br
 
 If the computer is behind a router, you'll also want to do some port forwarding. This is router-specific so I'll just direct you to http://portforward.com
 
+
+Auth log is located here: /var/log/auth.log
+
+
 ## local:
 
 	sudo apt-get update

@@ -31,3 +31,7 @@ If the computer is behind a router, you'll also want to do some port forwarding.
 	sudo mkdir /etc/ansible
 	sudo cp ~/ansible/examples/hosts /etc/ansible/
 
+### ping host(s)
+
+	ansible -m ping -i /etc/ansible/hosts all -k
+

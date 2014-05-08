@@ -39,3 +39,6 @@ Auth log is located here: /var/log/auth.log
 
 	ansible -m ping -i /etc/ansible/hosts all -k
 
+### Useful sites
+
+[OpenSSH](https://help.ubuntu.com/community/SSH/PENSSH/Keys)

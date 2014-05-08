@@ -41,6 +41,7 @@ If the computer is behind a router, you'll also want to do some port forwarding.
 create an ansible.cfg in /etc/ansible directory
 
 enable logging:
+
 	[defaults] 
 	log_path=/path/to/logfile
 

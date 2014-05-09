@@ -51,6 +51,10 @@ enable logging:
 
 	ansible -m ping -i /etc/ansible/hosts all -k
 
+### running a playbook
+
+	ansible-playbook -i /etc/ansible/hosts all -k path/to/playbook.yml
+
 ### Useful sites
 
 [OpenSSH Keys](https://help.ubuntu.com/community/SSH/OpenSSH/Keys)

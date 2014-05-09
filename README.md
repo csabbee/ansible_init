@@ -22,7 +22,9 @@ If the computer is behind a router, you'll also want to do some port forwarding.
 
 
 #### Auth log is located here: /var/log/auth.log
+#### Password authentication should be enabled on the host
 
+	/etc/ssh/sshd_config -> PasswordAuthentication yes
 
 ## local:
 

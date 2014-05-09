@@ -1,0 +1,6 @@
+---
+- hosts: ubuntuvirtuals
+  remote_user: csaba
+  tasks:
+    - name: test connection
+      ping:

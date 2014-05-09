@@ -4,3 +4,5 @@
   tasks:
     - name: test connection
       ping:
+    - name: create a directory on the host
+      file: state=directory path=~/wwwww

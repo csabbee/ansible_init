@@ -30,7 +30,7 @@ If the computer is behind a router, you'll also want to do some port forwarding.
 
 	sudo apt-get update
 	sudo apt-get install python-pip python-dev git -y
-	sudo pip install PyYAML jijna2 paramiko
+	sudo pip install PyYAML jinja2 paramiko
 	git clone https://github.com/ansible/ansible.git
 	cd ansible
 	sudo make install
